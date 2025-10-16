@@ -6,6 +6,8 @@ import { MobileMenu } from './components/MobileMenu'
 import { Home } from './components/sections/Home'
 import { About } from './components/sections/About'
 import { Projects } from './components/sections/Projects'
+import { Education } from './components/sections/Education'
+import { Certifications } from './components/sections/Certifications'
 import { Contact } from './components/sections/Contact'
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
        <Home/>
        <About/>
        <Projects/>
+       <Education/>
+       <Certifications/>
        <Contact/>
         </div>
     </>

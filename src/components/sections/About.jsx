@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import { Hobbies } from "./Hobbies";
 
 export const About = () => {
   const programmingLanguages = ["C++", "JavaScript"];
@@ -111,56 +112,8 @@ export const About = () => {
               </div>
             </div>
           </div>
-
-          {/* Education & Work Experience */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
-            {/* Education */}
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">🏫 Education</h3>
-              <ul className="list-disc list-inside text-gray-300 space-y-2">
-                <li>
-                  <strong>B.Tech CSE</strong> - Pimpri Chinchwad University (2023–2027)
-                </li>
-                <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud Computing, IoT Projects
-                </li>
-              </ul>
-            </div>
-
-            {/* Work Experience */}
-            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all">
-              <h3 className="text-xl font-bold mb-4">💼 Work Experience</h3>
-              <div className="space-y-4 text-gray-300">
-                <div>
-                  <h4 className="font-semibold">Scopley Content Creator</h4>
-                  <p>
-                    350K+ Subscribers on YouTube{" "}
-                    <a
-                      href="https://www.youtube.com/@SaiTheStumbler"
-                      className="text-blue-500 hover:text-blue-400 font-semibold"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      @SaiTheStumbler
-                    </a>
-                    <br />
-                    Tier 3 Content Creator{" "}
-                    <a
-                      href="https://www.stumbleguys.com/creator-program"
-                      className="text-cyan-400 hover:text-cyan-200 font-semibold"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      @Stumble Guys
-                    </a>
-                    <br />
-                    Streamed over 167M+ views on YouTube
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
+        <Hobbies/>
       </RevealOnScroll>
     </section>
   );
